@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial scale=1.0">
+      <title>rbsite</title>
+      <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+      <link rel="styleshet" href="style.css">
+      <link rel="styleshet" href="reset.css">
+    </head>
+
+    <style>
+        body {
+            background-color: rgb(42, 115, 145);
+            font-size: 100%;
+            text-align: center;
+            margin: 0%;
+
+        }
+        h2{
+            font-size: 150%;
+            text-align: left;
+            margin: 5%;
+        }
+        h3{
+            font-size: 200%;
+            text-align: center;
+            background-color: rgb(12, 57, 94);
+            color: white;
+        }
+        div{
+            text-align: center;
+        }
+        
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <body>
+    <header class="cabeçalho">
+        <span class="cabeçalho__menu-hamburguer"></span>
+        <img src="Robótica.png" alt="logo escola"
+        width="1366px">
+        </img>
+    </header>
+        <h2>   Robótica educacional é um método de aprendizagem focado na pesquisa,
+               descoberta e construção de uma máquina como resultado da aquisição de 
+               conhecimentos. Ele depende do uso de kits prontos de montagem ou transformação
+               de outros materiais.</h2>
+        <h2>
+            Nesses projetos, os alunos teriam que aplicar conceitos de programação, para programar. Esses conceitos de programação aprendidos na escola podem ser aplicados em outras áreas da vida posteriormente.
+        </h2>
+   
+    </body>
+    <body>
+    <section class="carrossel">
+        <h3 class="carrossel__titulo">Projetos</h3>
+        <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="img/arduino.jpg" alt="protótipo" width="300px"></div>
+      <div class="swiper-slide"><img src="img/Untitled.jpg" alt="montagem" width="300px"></div>
+      <div class="swiper-slide"><img src="img/chassi.jpg" alt="carrinho" width="300px"></div>
+      <div class="swiper-slide"><img src="img/semaforo.jpg" alt="semaforo" width="300px"></div>
+      <div class="swiper-slide"><img src="img/som.jpg" alt="som" width="300px"></div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+    </section>
+
+    <script src="https://unpkg.com/swipwe@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 1,
+        
+        });
+    </script>
+    <img src="img/robozinho.png" alt="robo ilustrativo" width="150px">
+
+  </body>
+
+
+</html>

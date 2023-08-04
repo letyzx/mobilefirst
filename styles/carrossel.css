@@ -1,0 +1,15 @@
+.carrossel__titulo{
+    color: var(--azul);
+    background-color: var(--azul);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.swiper-slides img {
+    width: 100%;
+    
+
+
+
+}

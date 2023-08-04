@@ -1,0 +1,14 @@
+@import url("style/carrossel.css");
+
+
+:root {
+     --cor-de-fundo: #A282CA;
+}
+
+body {
+   background-color: var(--cor-de-fundo);
+}
+
+h1 {
+    background-color: blue;
+}
